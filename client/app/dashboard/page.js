@@ -1,7 +1,12 @@
+import {JD} from "./components/jd.js"
 const Dashboard = () =>{
 
     return(
-        <h1>Your Dashboard!</h1>
+        <div>
+            <h1>Your Dashboard!</h1>
+            <JD/>
+        </div>
+
     )
 }
 
